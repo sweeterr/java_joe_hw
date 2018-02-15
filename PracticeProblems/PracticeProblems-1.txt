@@ -1,0 +1,98 @@
+-Create a new project called PracticeProblems
+-Create a new class called problems with a main() method
+-create each of these methods in the Problems class and code them
+-Test each of the new methods
+
+
+strings
+
+1)
+//Given a string of at least length 2, return a version where the first two characters are moved to the end
+//left2("Hello") > "lloHe"
+//left2("java") > "vaja"
+//left2("Hi") > "Hi"
+public String left2(String str) {
+  
+
+
+}
+
+
+2)
+//Given a string, if the string begins with "red" or "blue" return that color string, otherwise return the //empty //string.
+//seeColor("redxx") > "red"
+//seeColor("xxred") > ""
+//seeColor("blueTimes") > "blue"
+//
+
+public String seeColor(String str) {
+  
+
+
+}
+
+
+Logic
+
+3)
+//Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, //it does not count towards the sum.
+
+
+//loneSum(1, 2, 3) > 6
+//loneSum(3, 2, 3) > 2
+//loneSum(3, 3, 3) > 0
+
+public int loneSum(int a, int b, int c) {
+  
+
+
+}
+
+4)
+//Given 2 int values greater than 0, return whichever value is nearest to 21 without going over. Return 0 if they //both go over.
+
+
+//blackjack(19, 21) > 21
+//blackjack(21, 19) > 21
+//blackjack(19, 22) > 19
+
+
+public int blackjack(int a, int b) {
+  
+
+
+}
+
+
+Arrays
+
+5)
+
+//Given a number n, create and return a new int array of length n, containing the numbers 0, 1, 2, ... n-1. The //given n may be 0, in which case just return a length 0 array. You do not need a separate if-statement for the //length-0 case; the for-loop should naturally execute 0 times in that case, so it just works. The syntax to make a //new int array is: new int[desired_length]   (See also: FizzBuzz Code)
+
+
+//fizzArray(4) > [0, 1, 2, 3]
+//fizzArray(1) > [0]
+//fizzArray(10) > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+public int[] fizzArray(int n) {
+  
+
+
+}
+
+
+6) CS exam
+
+//This one is from a standard set of Comp Sci first year exams
+//Given a positive int n, return true if it contains a 1 digit. Note: use % to get the rightmost digit, and / to //discard the rightmost digit.
+
+
+//hasOne(10) > true
+//hasOne(22) > false
+//hasOne(220) > false
+
+public boolean hasOne(int n) {
+  
+
+
+}
